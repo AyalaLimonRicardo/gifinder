@@ -535,3 +535,21 @@ input:focus-visible {
   outline: 3px solid var(--cobalt);
   outline-offset: 3px;
 } 
+/* =========================
+   ATRIBUCIÓN GIPHY
+   ========================= */
+
+.giphy-attribution {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+.giphy-attribution a {
+  display: inline-block;
+}
+
+.giphy-attribution img {
+  display: inline-block;
+  width: min(180px, 100%);
+  height: auto;
+}
